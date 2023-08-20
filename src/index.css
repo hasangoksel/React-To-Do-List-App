@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  @apply text-[24px] font-mono;
+}
+
+body{
+  @apply bg-gradient-to-r from-cyan-500 to-blue-500 ;
+  @apply bg-gradient-to-r from-blue-500 to-transparent;
+}
+.error-modal{
+  @apply fixed top-1/4 left-0 flex justify-center mx-auto w-screen;
+}
